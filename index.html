@@ -6,61 +6,60 @@
 </head>
 
 <body>
-    <h1>სემანტიკური HTML-ის სწავლა</h1>
-    <h2>არასემანტიკური Div ელემენტი</h2>
-    <p>
-        &ltdiv&gt ელემენტი გამოიყენება ბლოკური შინაარსის ჯგუფისთივს, თუმცა მას
-        საკუთარი მნიშვნელობა არ გააჩნია.
-    </p>
-    <h2>ცხრილებისა და ფორმების გამოყენება</h2>
-
-    <h3>მომხმარებელთა ინფორმაციის ცხრილი</h3>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>სახელი</th>
-                <th>ელ.ფოსტა</th>
-                <th>ასაკი</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>გიორგი ბერიძე</td>
-                <td>giorgi@example.com</td>
-                <td>28</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>ლიკა დევდარიანი</td>
-                <td>lika@example.com</td>
-                <td>32</td>
-            </tr>
-        </tfoot>
-    </table>
+    <header>
+        <h1>სემანტიკური HTML-ის სწავლა</h1>
+        <h2>არასემანტიკური Div ელემენტი</h2>
+        <p>
+            &ltdiv&gt ელემენტი გამოიყენება ბლოკური შინაარსის ჯგუფისთივს, თუმცა მას
+            საკუთარი მნიშვნელობა არ გააჩნია.
+        </p>
+    </header>
+    <main>
+        <h2>ცხრილებისა და ფორმების გამოყენება</h2>
+        <h3>მომხმარებელთა ინფორმაციის ცხრილი</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>სახელი</th>
+                    <th>ელ.ფოსტა</th>
+                    <th>ასაკი</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>გიორგი ბერიძე</td>
+                    <td>giorgi@example.com</td>
+                    <td>28</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>ლიკა დევდარიანი</td>
+                    <td>lika@example.com</td>
+                    <td>32</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h3>კონტაქტის ფორმა</h3>
+        <form action="">
+            <label for="firstName">სახელი:</label> <br />
+            <input type="text" name="firstName" id="firstName">
+            <br />
+            <label for="gmail">ელ.ფოსტა:</label> <br />
+            <input type="email" name="gmail" id="gmail">
+            <br />
+            <label for="age">ასაკი:</label> <br />
+            <input type="number" name="age" id="age">
+            <br />
+            <br />
+            <input type="submit" value="გაგზავნა">
+        </form>
+    </main>
+    <footer>
+        <p>© 2024 სემანტიკური და არასემანტიკური HTML-ის მაგალითი</p>
+    </footer>
+    
 
 </body>
 
 </html>
-<!-- 
-სემანტიკური და არასემანტ X
-127.0.0.1:5500/html8-3.html
-Phttps://www.pinter... Ghttps://www.cgpe...
-CG http://www.cgmee...
-http://www.digitalt... CG http://www.cgmee...
-https://www.youtu...
-https://www.youtu...
-
-
-
-
-
-
-
-  
-კონტაქტის ფორმა
-სახელი:
-ელ.ფოსტა:
-ასაკი:
-გაგზავნა
-© 2024 სემანტიკური და არასემანტიკური HTML-ის მაგალითი -->
